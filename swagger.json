@@ -1,0 +1,19 @@
+{
+  "swaggerDefinition": {
+    "info": {
+      "title": "Cleaning inventory API",
+      "version": "1.0.0",
+      "description": "Cleaning API documentation",
+      "contact": {
+        "name": "HG cleaning"
+      },
+      "servers": [
+        "http://localhost:8080"
+      ]
+    }
+  },
+  "apis": [
+    "app.js",
+    "./routes/*.js"
+  ]
+}
